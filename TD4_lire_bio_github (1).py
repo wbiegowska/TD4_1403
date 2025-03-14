@@ -29,5 +29,7 @@ for chemin in glob.glob(path_data):
             if d[1]!= "O":
                 
                 liste_EN.append(d[0])
+
+print("Il y a",len(liste EN),"d’entite«s nomme«es pour le texte",chemin)
   
         
