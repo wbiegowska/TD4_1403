@@ -30,6 +30,6 @@ for chemin in glob.glob(path_data):
                 
                 liste_EN.append(d[0])
 
-print("Il y a",len(liste_EN),"d’entite«s nomme«es pour le texte",chemin)
+print("Il y a",len(liste EN),"d’entite«s nomme«es pour le texte",chemin)
   
         
