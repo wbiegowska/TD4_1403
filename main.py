@@ -17,7 +17,7 @@ def lire_fichier (chemin):
             liste_r.append(row)
     return liste_r
 
-path_data="../ressources/DATA/*/*/*.bio"
+path_data="DATA/*/*/*.bio"
 
 for chemin in glob.glob(path_data):
 
@@ -29,5 +29,7 @@ for chemin in glob.glob(path_data):
             if d[1]!= "O":
                 
                 liste_EN.append(d[0])
+
+print("Il y a",len(liste_EN),"d’entites nommees pour le texte",chemin)
   
         
