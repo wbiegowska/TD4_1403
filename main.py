@@ -20,7 +20,6 @@ def lire_fichier (chemin):
 path_data="DATA/*/*/*.bio"
 
 for chemin in glob.glob(path_data):
-
     data=lire_fichier(chemin)
     liste_EN=[]
     for d in data:
@@ -30,6 +29,6 @@ for chemin in glob.glob(path_data):
                 
                 liste_EN.append(d[0])
 
-print("Il y a",len(liste_EN),"d’entites nommees pour le texte",chemin)
+print("Il y a",len(liste_EN),"d’entite«s nomme«es pour le texte",chemin)
   
         
