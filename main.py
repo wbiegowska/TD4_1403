@@ -17,10 +17,9 @@ def lire_fichier (chemin):
             liste_r.append(row)
     return liste_r
 
-path_data="../ressources/DATA/*/*/*.bio"
+path_data="DATA/*/*/*.bio"
 
 for chemin in glob.glob(path_data):
-
     data=lire_fichier(chemin)
     liste_EN=[]
     for d in data:
